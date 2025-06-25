@@ -5,7 +5,7 @@
     "path": "/attributesByType",
     "side": "Server",
     "value": {
-      "*-catfish-*": {
+      "*-catfish": {
         "biorealm": [
           "pacific nearctic",
           "atlantic nearctic",
@@ -21,7 +21,7 @@
           "oceanic"
         ]
       },
-      "*-catfish_ripsaw-*": {
+      "*-catfish-ripsaw": {
         "biorealm": [
           "pacific neotropic",
           "atlantic neotropic",
@@ -44,7 +44,7 @@
     "path": "/attributesByType",
     "side": "Server",
     "value": {
-      "*-fresh-*": {
+      "*-fresh": {
         "biorealm": [
           "pacific neotropic",
           "atlantic neotropic",
@@ -52,7 +52,7 @@
           "eastern afrotropic"
         ]
       },
-      "*-sea-*": {
+      "*-sea": {
         "biorealm": [
           "pacific nearctic",
           "atlantic nearctic",
@@ -81,7 +81,7 @@
     "path": "/attributesByType",
     "side": "Server",
     "value": {
-      "*-snakehead-*": {
+      "*-snakehead": {
         "biorealm": [
           "pacific neotropic",
           "atlantic neotropic",
@@ -91,7 +91,7 @@
           "oceanic"
         ]
       },
-      "*-sea_bass-*": {
+      "*-sea-bass": {
         "biorealm": [
           "pacific nearctic",
           "atlantic nearctic",
@@ -107,12 +107,12 @@
           "oceanic"
         ]
       },
-      "*-bass-*": {
+      "*-bass": {
         "biorealm": [
           "atlantic nearctic"
         ]
       },
-      "*-coral_fish-*": {
+      "*-coral-fish": {
         "biorealm": [
           "pacific nearctic",
           "atlantic nearctic",
@@ -128,7 +128,7 @@
           "oceanic"
         ]
       },
-      "*-sunfish-*": {
+      "*-sunfish": {
         "biorealm": [
           "pacific nearctic",
           "atlantic nearctic",
@@ -144,7 +144,7 @@
           "oceanic"
         ]
       },
-      "*-salmon-*": {
+      "*-salmon": {
         "biorealm": [
           "pacific nearctic",
           "atlantic nearctic",
@@ -154,7 +154,7 @@
           "pacific palearctic"
         ]
       },
-      "*-trout-*": {
+      "*-trout": {
         "biorealm": [
           "pacific nearctic",
           "atlantic nearctic",
@@ -228,24 +228,12 @@
   {
     "file": "wethology:entities/water/piranha.json",
     "op": "add",
-    "path": "/attributesByType",
+    "path": "/attributes",
     "side": "Server",
     "value": {
-      "-small": {
-        "biorealm": [
-          "atlantic neotropic"
-        ]
-      },
-      "*-medium": {
-        "biorealm": [
-          "atlantic neotropic"
-        ]
-      },
-      "*-large": {
-        "biorealm": [
-          "atlantic neotropic"
-        ]
-      }
+      "biorealm": [
+        "atlantic neotropic"
+      ]
     },
     "dependsOn": [
       {

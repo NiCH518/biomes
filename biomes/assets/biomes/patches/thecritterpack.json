@@ -6,12 +6,7 @@
     "side": "server",
     "value": {
       "biorealm": [
-        "pacific nearctic",
-        "atlantic nearctic",
-        "atlantic palearctic",
-        "central palearctic",
-        "eastern palearctic",
-        "pacific palearctic"
+        "atlantic palearctic"
       ]
     },
     "dependsOn": [ { "modid": "thecritterpack" } ]
@@ -23,12 +18,7 @@
     "side": "server",
     "value": {
       "biorealm": [
-        "pacific nearctic",
-        "atlantic nearctic",
-        "atlantic palearctic",
-        "central palearctic",
-        "eastern palearctic",
-        "pacific palearctic"
+        "atlantic palearctic"
       ]
     },
     "dependsOn": [ { "modid": "thecritterpack" } ]
@@ -277,8 +267,7 @@
     "value": {
       "biorealm": [
         "atlantic palearctic",
-        "central palearctic",
-        "eastern palearctic"
+        "central palearctic"
       ]
     },
     "dependsOn": [ { "modid": "thecritterpack" } ]
@@ -292,8 +281,7 @@
     "value": {
       "biorealm": [
         "atlantic palearctic",
-        "central palearctic",
-        "eastern palearctic"
+        "central palearctic"
       ]
     },
     "dependsOn": [ { "modid": "thecritterpack" } ]
@@ -307,8 +295,7 @@
     "value": {
       "biorealm": [
         "atlantic palearctic",
-        "central palearctic",
-        "eastern palearctic"
+        "central palearctic"
       ]
     },
     "dependsOn": [ { "modid": "thecritterpack" } ]
@@ -429,29 +416,6 @@
     "dependsOn": [ { "modid": "thecritterpack" } ]
   },
   {
-    "file": "thecritterpack:entities/land/isopod/isopod-rubberducky.json",
-    "op": "addmerge",
-    "path": "/attributes",
-    "side": "server",
-    "value": {
-      "biorealm": [
-        "atlantic nearctic",
-        "pacific nearctic",
-        "atlantic neotropic",
-        "pacific neotropic",
-        "atlantic palearctic",
-        "central palearctic",
-        "eastern palearctic",
-        "pacific palearctic",
-        "eastern afrotropic",
-        "atlantic afrotropic",
-        "australasian",
-        "oceania"
-      ]
-    },
-    "dependsOn": [ { "modid": "thecritterpack" } ]
-  },
-  {
     "file": "thecritterpack:entities/land/yak/yak-calf.json",
     "op": "addmerge",
     "path": "/attributes",
@@ -486,20 +450,6 @@
       "biorealm": [
         "central palearctic",
         "eastern palearctic"
-      ]
-    },
-    "dependsOn": [ { "modid": "thecritterpack" } ]
-  },
-
-  {
-    "file": "thecritterpack:entities/air/owl/brown-owl-f.json",
-    "op": "addmerge",
-    "path": "/attributes",
-    "side": "server",
-    "value": {
-      "biorealm": [
-        "atlantic palearctic",
-        "central palearctic"
       ]
     },
     "dependsOn": [ { "modid": "thecritterpack" } ]
